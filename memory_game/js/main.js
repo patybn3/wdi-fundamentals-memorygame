@@ -1,8 +1,8 @@
-var cards = ['queen', 'queen', 'king', 'king'];
+const cards = ['queen', 'queen', 'king', 'king'];
 
-var cardsInPlay = [];
+const cardsInPlay = [];
 
-var checkForMatch = function() {
+let checkForMatch = function() {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
   console.log("You found a match!");
 } else {
@@ -10,7 +10,7 @@ var checkForMatch = function() {
 }
 }
 
-var flipCard = function (cardId) {
+let flipCard = function (cardId) {
 
 	console.log("User flipped " + cards[cardId]);
 	cardsInPlay.push(cards[0]);
