@@ -7,7 +7,7 @@ h1 {
 font-family: 'Nanum Gothic', sans-serif;
 font-weight: 800;
 letter-spacing: 1px;
-font-size: 45px;
+font-size: 35px;
 text-transform: uppercase;
 margin: 0;
 }
@@ -41,12 +41,12 @@ main {
 	width: 850px;
 	margin: 35px auto;
 }
-h2 {
+h2, h3 {
 	font-family: 'Nanum Gothic', sans-serif;
 	color: #0D2C40;
 	letter-spacing: 1px;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 28px;
 	text-transform: uppercase;
 }
 p {
@@ -55,7 +55,7 @@ p {
 	font-size: 18px;
 }
 img {
-	margin: 40px 8px 0px 8px;
+	margin: 30px 8px 0px 8px;
 }
 .link {
 	font-family: 'Nanum Gothic', sans-serif;
@@ -96,4 +96,25 @@ clear: both;
 }
 .clearfix{
 	overflow: hidden;
+}
+button{
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 13px 50px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin: 15px 0;
+}
+button:hover {
+	background-color: #005a61;
+}
+h4 {
+	padding: 20px 0 0 0;
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 24px;
+	
 }
